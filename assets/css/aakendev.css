@@ -2,6 +2,21 @@
   box-sizing: border-box;
 }
 
+html {
+  width: 100vw;
+}
+
 body {
   margin: 0;
+  padding: 0;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+ul > li {
+  display: block;
+  text-align: center;
 }
