@@ -1,3 +1,5 @@
-setTimeout(() => {
-  alert("Test JavaScript");
-}, 5000);
+document.body.onload = () => {
+  setTimeout(() => {
+    alert("Test JavaScript");
+  }, 5000);
+};
